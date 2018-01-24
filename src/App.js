@@ -5,13 +5,16 @@ import Paper from 'material-ui/Paper';
 import TasksContainer from './components/TasksContainer';
 
 const App = () => (
-  <Paper>
+
     <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={6}>
+            <Paper>
             <TasksContainer/>
+            </Paper>
         </Grid>
+
     </Grid>
-  </Paper>
+
 );
 
 export default App;

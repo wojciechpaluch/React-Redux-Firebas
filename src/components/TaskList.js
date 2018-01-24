@@ -1,10 +1,10 @@
 import React from 'react';
 import List from 'material-ui/List';
-
 import Task from './Task';
 
 const TasksList = (props) => (
-    <List>
+    <div>
+  <List>
         {props.tasks
             .filter(task => task.name.toUpperCase().indexOf(props.query.toUpperCase()) !== -1)
             .map(task => (
@@ -15,6 +15,7 @@ const TasksList = (props) => (
                 />
             ))}
     </List>
+    </div>
 );
 
 export default TasksList;

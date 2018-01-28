@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wojciechpaluch.github.io/React-Redux-Firebase/",
+  "homepage": "https://wojciechpaluch.github.io/react-todo/",
   "dependencies": {
     "firebase": "^4.9.0",
     "gh-pages": "^1.1.0",
